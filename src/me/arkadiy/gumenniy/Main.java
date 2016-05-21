@@ -1,6 +1,5 @@
 package me.arkadiy.gumenniy;
 
-import me.arkadiy.gumenniy.modifier.Logarithmer;
 import me.arkadiy.gumenniy.modifier.Modifier;
 import me.arkadiy.gumenniy.modifier.Reverser;
 

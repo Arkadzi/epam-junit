@@ -1,11 +1,16 @@
 package me.arkadiy.gumenniy.modifier;
 
-import me.arkadiy.gumenniy.modifier.Modifier;
-
 /**
- * Created by Arkadiy on 21.05.2016.
+ * Class which reverses three-digit number
  */
 public class Reverser implements Modifier {
+    /**
+     * reverses three-digit value
+     * if number is < 100 or > 999 - throws {@link IllegalArgumentException}
+     *
+     * @param number modifiable value
+     * @return reversed  integer number
+     */
     @Override
     public Integer modify(int number) {
         if (number > 999 || number < 100) {
